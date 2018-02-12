@@ -32,7 +32,7 @@ const startServer = async () => {
 
         await server.start();
 
-        console.log(`Started server on port ${server.info.port}`);
+        console.log(`Hapi 17 server runnint at: ${server.info.port}`);
 
     } catch (err) {
         console.error(err);

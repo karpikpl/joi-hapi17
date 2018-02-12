@@ -7,6 +7,10 @@
   "scripts": {
     "start": "nodemon index.js"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/karpikpl/joi-hapi17.git"
+  },
   "dependencies": {
     "hapi": "^17.2.0",
     "joi": "^13.1.2"
